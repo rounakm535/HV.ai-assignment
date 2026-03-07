@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://hv-ai-assignment.onrender.com/api',
 });
 
 // Add a request interceptor to append JWT token
